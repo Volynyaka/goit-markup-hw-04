@@ -4,7 +4,7 @@
   --dark: #2e2f42;
   --success: #31d0aa;
   --text: #434455;
-  --subtle-text: #8e8f99;
+  --subtitle-text: #8e8f99;
   --accent: #e7e9fc;
   --light: #f4f4fd;
   --modal-overlay: #2e2f42;
@@ -82,7 +82,6 @@ button {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-
 }
 
 .header-nav {
@@ -143,7 +142,6 @@ button {
   left: 0;
 }
 
-
 .navigation-list .nav-link:active {
   color: var(--pressed-state);
 }
@@ -159,7 +157,6 @@ button {
   display: flex;
   align-items: center;
   gap: 40px;
-  
 }
 
 .address-list {
@@ -188,11 +185,14 @@ button {
 .hero {
   background-color: var(--hero-background);
   padding: 188px 0;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 .hero-title {
   font-size: 56px;
@@ -261,6 +261,15 @@ button {
   flex-basis: calc((100% - 72px) / 3);
 }
 
+.section-two-icons {
+  border-radius: 4px;
+  border: 1px solid var(--subtitle-text);
+  background-color: var(--light);
+  padding: 24px 100px;
+  display: flex;
+  margin-bottom: 8px;
+}
+
 .subtitle {
   font-size: 20px;
   font-weight: 500;
@@ -268,7 +277,6 @@ button {
   letter-spacing: 0.4px;
   color: var(--dark);
   margin-bottom: 8px;
-  
 }
 .subtitle .text {
   line-height: 24px;
@@ -297,14 +305,12 @@ button {
 .team-list {
   display: flex;
   gap: 24px;
-  
 }
 
 .team-foto {
   background-color: var(--white-background);
   border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 72px) / 4);
-    
 }
 
 .employee-characteristics {
@@ -326,7 +332,6 @@ button {
   letter-spacing: 0.32px;
   text-align: center;
   color: var(--text);
-  
 }
 
 /* Footer */
@@ -387,15 +392,11 @@ button {
   flex-basis: calc((100% - 48px) / 3);
 }
 
-
-
 .portfolio-item-description {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  
 }
-
 
 .foto-list .title-text {
   font-size: 20px;
