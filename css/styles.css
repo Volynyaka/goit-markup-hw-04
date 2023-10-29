@@ -553,3 +553,7 @@ background-color: var(--success);
 .footer-social-link:focus {
   background-color: var(--success);
 }
+
+.footer-social-icon {
+  fill: var(--light);
+}
