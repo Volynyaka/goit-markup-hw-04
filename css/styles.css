@@ -273,7 +273,6 @@ button {
   border-radius: 4px;
   border: 1px solid var(--subtitle-text);
   background-color: var(--light);
-  padding: 24px 100px;
   display: flex;
   margin-bottom: 8px;
   align-items: center;
