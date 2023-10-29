@@ -171,7 +171,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.32px;
   font-style: normal;
-  color: var(--text);
+  color: var(--text);transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .list .address-link:active {
@@ -195,6 +196,8 @@ button {
     url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 1440px;
+  background-position: center;
 }
 
 .hero-title {
