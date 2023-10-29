@@ -200,6 +200,8 @@ button {
   background-position: center;
 }
 
+
+
 .hero-title {
   font-size: 56px;
   font-weight: 700;
@@ -274,6 +276,9 @@ button {
   padding: 24px 100px;
   display: flex;
   margin-bottom: 8px;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
 }
 
 .subtitle {
